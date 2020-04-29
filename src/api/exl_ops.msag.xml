@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>EXL_OPS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Excel Operations</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Unable to find configuration data for &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Key fields must always be a part of the download.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp; is a required field.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Unable to find download data class configuration for &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>The key field &amp; has not been selected for download in the worksheet &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Unable to generate the sheet schema table.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Data stream is missing for the stream key &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unable to save the data in the database.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Excel worksheet name does not match the default name.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Unable to find a worksheet in the Excel.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>The number of worksheets does not match that of the default Excel.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Worksheet &amp; does not exist match any worksheet in the default Excel.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Unable to upload the central purchase contracts.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>The language set in the Excel does not match your logon language.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Mandatory fields must always be a part of the download.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>A value for the mandatory field &amp; of the &amp; &amp; is missing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>The value &amp; for &amp; in the sheet &amp; is not in the correct format.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Updating &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Central purchase contract &amp; was updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>EXL_OPS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp; &amp; changed</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

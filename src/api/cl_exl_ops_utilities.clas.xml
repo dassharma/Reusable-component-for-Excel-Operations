@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_EXL_OPS_UTILITIES</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Excel Operation Utility class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UTILITIES</CLSNAME>
+     <CMPNAME>EXTRACT_ITAB_COMPONENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extract the component detail of the dynamic table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UTILITIES</CLSNAME>
+     <CMPNAME>GET_EXL_OPS_CONFIG_DETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Extract excel configuration details for a given BO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UTILITIES</CLSNAME>
+     <CMPNAME>GET_EXL_OPS_FIELD_NOTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the certain type of fields information</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

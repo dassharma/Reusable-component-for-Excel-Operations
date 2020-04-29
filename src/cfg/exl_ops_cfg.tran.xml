@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>EXL_OPS_CFG</TCODE>
+    <CINFO>Ag==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>EXL_OPS_CFG</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>EXL_OPS_CFG</TCODE>
+    <TTEXT>Configurations for Excel Operations</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>EXL_OPS_CFG</TCODE>
+    <PARAM>/*SM34 VCLDIR-VCLNAME=VC_EXL_OPS_SAP_APP_CONFIG;SHOW=X;</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

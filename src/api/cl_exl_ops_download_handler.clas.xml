@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Mass excel download handler API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate the instance of the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>GENERATE_EXCEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate the excel to be downloaded</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_CONFIGURATION_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Configuration data of excel framework</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_EXCEL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Workseet data corresponding to sheet names &amp; ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_FIELD_NOTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Technical Details of fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_APPLY_META_CONFIG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Apply the user locale information on the raw data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_BUILD_SELECT_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Build the string containing the selection fields of the CDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_GENERATE_DYNAMIC_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate the table schema to hold the data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_LOAD_TABLE_WITH_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load the generated table schema with actual data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_DOWNLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_RETRIEVE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the data of all the sheets of the excel</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

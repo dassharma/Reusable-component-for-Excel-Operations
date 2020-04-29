@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DSYS>
+    <HEAD>
+     <TDOBJECT>DSYS</TDOBJECT>
+     <TDNAME>SIMGMMPUR_INT_C_EXL_OPS</TDNAME>
+     <TDID>HY</TDID>
+     <TDSPRAS>E</TDSPRAS>
+     <TDFORM>S_DOCU_SHOW</TDFORM>
+     <TDSTYLE>S_DOCUS1</TDSTYLE>
+     <TDVERSION>00001</TDVERSION>
+     <TDLINESIZE>072</TDLINESIZE>
+    </HEAD>
+    <LINES>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;SHORTTEXT&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>Define the technical settings required to download procurement</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>information using an Excel file.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;USE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>You can use this step to specify the CDS, method, and class names using</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>which business object information can be downloaded into an Excel file.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>For each worksheet in the Excel, you can define the following:</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>B1</TDFORMAT>
+      <TDLINE>CDS Name: Specifies the CDS view that retrieves the business object</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>information.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>B1</TDFORMAT>
+      <TDLINE>Method Name: Specifies the method that retrieves the data.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>B1</TDFORMAT>
+      <TDLINE>Class Name: Specifies the class to which the method belongs.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>B1</TDFORMAT>
+      <TDLINE>Hierarchy Notation: Specifies the hierarchy of the information related</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>to the business object being downloaded into each worksheet. For</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>example, 1.0 for a worksheet can signify header information of a central</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>contract, 1.1 can signify the item information of a central contract,</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>and 1.1.1 can signify the item distribution of a central contract.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>To configure the download setting:</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>N1</TDFORMAT>
+      <TDLINE>Select a document from the &lt;LS&gt;Business Object&lt;/&gt; folder.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>N1</TDFORMAT>
+      <TDLINE>Select an existing entry or create a new one in the &lt;LS&gt;Worksheet&lt;/&gt;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>folder.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>N1</TDFORMAT>
+      <TDLINE>Specify the &lt;LS&gt;CDS Name&lt;/&gt;, &lt;LS&gt;Method Name&lt;/&gt;, &lt;LS&gt;Class Name&lt;/&gt;, and</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>&lt;LS&gt;Hierarchy Notation&lt;/&gt;.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>N1</TDFORMAT>
+      <TDLINE>Save the changes.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+    </LINES>
+   </DSYS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

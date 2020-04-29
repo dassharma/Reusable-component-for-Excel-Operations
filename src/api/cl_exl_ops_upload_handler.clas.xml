@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Mass Excel upload handler API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MS_MASS_OPERATION_STREAM_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mass Operations Stream Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_CONFIGURATION_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Configuration table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_EXCEL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deep Table: Actual Excel Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MT_FIELD_NOTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Field notation table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>MV_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>PROCESS_EXCEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process the excel data and update the respective document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_APPLY_SYSTEM_LOCALE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Apply system locale information on the data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_CONVERT_STREAM_TO_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversion of stream data to actual data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_EXL_OPS_UPLOAD_HANDLER</CLSNAME>
+     <CMPNAME>_PROCESS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process the actual data to update the Business Objects</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
